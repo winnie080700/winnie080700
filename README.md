@@ -1,17 +1,11 @@
 # Hello! Winnie Here (●'◡'●)
 
 ## About Me
-I'm a software developer with around 3 years of experience in backend and web application development.  
+A software developer with around 4 years of experience in backend and web application development.  
 My main background is in **C# / .NET backend development**, and I also have hands-on experience building web applications with **React, TypeScript, and Angular**.
 
 I enjoy building practical systems, improving existing workflows, and solving real-world problems through clean and maintainable code.  
-Recently, I’ve also been exploring more AI-integrated solutions and expanding my backend skills into other stacks such as Node.js.
-
-- 🔭 Currently working on backend systems, API development, and internal business tools
-- 🌱 Currently learning more about Node.js, scalable backend architecture, and AI-assisted development
-- 💬 Ask me about C#, .NET, RESTful APIs, React, TypeScript, and system optimization
-- ⚡ Interested in building practical products that improve efficiency and user experience
-- ❤ Fun Fact about me: NEVER ASK THEORICAL QUESTIONS, SHE WILL BECOME NOT RESPONDING. ╥﹏╥...
+Recently, I’ve also been exploring more AI-integrated solutions and expanding my backend skills into other stacks.
 ---
 
 ## Tech Stack
