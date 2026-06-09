@@ -6,7 +6,7 @@ I architect API-driven systems, internal platforms, migration tools, and AI-inte
 
 My core strength is backend engineering with **C# / .NET**, with hands-on experience across **React**, **Angular**, **TypeScript**, **Java**, **Spring Boot**, **MySQL**, **Redis**, and workflow automation.
 
-Portfolio website: **coming soon**
+Portfolio website: [Winnie](https://winnie080700.vercel.app/)
 
 ---
 
@@ -76,5 +76,3 @@ I am currently expanding my work around AI-assisted tooling, backend architectur
 ## Contact
 
 Email: [winnie.chngsm@gmail.com](mailto:winnie.chngsm@gmail.com)
-
-Resume and portfolio website will be linked here once the portfolio site is ready.
