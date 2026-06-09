@@ -3,21 +3,7 @@ import { otherProjects, projectExperience, workExperience } from "@/data/portfol
 
 export default function ExperiencesPage() {
   return (
-    <main className="mx-auto w-full max-w-7xl px-5 py-20 sm:px-8">
-      <section className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-end">
-        <div>
-          <p className="section-kicker">Experiences</p>
-          <h1 className="mt-6 text-5xl font-semibold tracking-tight text-portfolio-ink sm:text-7xl">
-            Systems, migrations, tools, and production work.
-          </h1>
-        </div>
-        <p className="max-w-2xl text-lg leading-8 text-portfolio-muted">
-          A detailed view of professional roles, project ownership, and the
-          engineering work behind API-driven platforms, internal systems, and AI
-          automation.
-        </p>
-      </section>
-
+    <main className="mx-auto w-full max-w-7xl px-5 py-10 sm:px-8">
       <SectionHeader
         icon={<BriefcaseBusiness className="size-6" aria-hidden="true" />}
         kicker="Work"
@@ -123,7 +109,7 @@ function SectionHeader({
   title: string;
 }) {
   return (
-    <div className="mt-24 mb-8 flex items-end justify-between gap-6 border-b border-portfolio-line pb-5">
+    <div className="mt-14 mb-8 flex items-end justify-between gap-6 border-b border-portfolio-line pb-5">
       <div>
         <p className="section-kicker">{kicker}</p>
         <h2 className="mt-4 text-3xl font-semibold text-portfolio-ink sm:text-4xl">

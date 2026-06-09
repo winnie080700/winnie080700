@@ -3,20 +3,12 @@ import { achievements } from "@/data/portfolio";
 
 export default function AchievementsPage() {
   return (
-    <main className="mx-auto w-full max-w-7xl px-5 py-20 sm:px-8">
+    <main className="mx-auto w-full max-w-7xl px-5 py-10 sm:px-8">
       <section className="max-w-4xl">
         <p className="section-kicker">Achievements</p>
-        <h1 className="mt-6 text-5xl font-semibold tracking-tight text-portfolio-ink sm:text-7xl">
-          Recognition, ownership, and useful automation.
-        </h1>
-        <p className="mt-6 max-w-2xl text-lg leading-8 text-portfolio-muted">
-          A curated view of academic recognition, engineering ownership, and
-          AI-assisted work that reflects how I approach practical software
-          delivery.
-        </p>
       </section>
 
-      <section className="mt-16 grid gap-6 lg:grid-cols-3">
+      <section className="mt-10 grid gap-6 lg:grid-cols-3">
         <AchievementGroup
           icon={<Award className="size-6" aria-hidden="true" />}
           title="Academic"

@@ -1,23 +1,17 @@
-import { Award, BookOpen, Calendar, GraduationCap, Languages } from "lucide-react";
+import {
+  Award,
+  BookOpen,
+  Calendar,
+  GraduationCap,
+  Languages,
+} from "lucide-react";
 import { academic } from "@/data/portfolio";
 
 export default function AcademicPage() {
   return (
-    <main className="mx-auto w-full max-w-7xl px-5 py-20 sm:px-8">
-      <section className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-end">
-        <div>
-          <p className="section-kicker">Academic</p>
-          <h1 className="mt-6 text-5xl font-semibold tracking-tight text-portfolio-ink sm:text-7xl">
-            The foundation before the systems.
-          </h1>
-        </div>
-        <p className="max-w-2xl text-lg leading-8 text-portfolio-muted">
-          A focused technology background in Internet Technology, strengthened
-          by academic recognition and early community involvement.
-        </p>
-      </section>
-
-      <section className="mt-16 border border-portfolio-line bg-portfolio-lift/70 p-6 sm:p-8">
+    <main className="mx-auto w-full max-w-7xl px-5 py-10 sm:px-8">
+      <p className="section-kicker">Academic</p>
+      <section className="mt-2 border border-portfolio-line bg-portfolio-lift/70 p-6 sm:p-8">
         <div className="grid gap-8 lg:grid-cols-[1fr_1.35fr]">
           <div>
             <div className="grid size-14 place-items-center border border-portfolio-line bg-portfolio-background text-portfolio-accent">
@@ -65,8 +59,7 @@ export default function AcademicPage() {
           {academic.achievements.map((achievement, index) => (
             <div
               className="flex gap-5 border-t border-portfolio-line pt-4"
-              key={achievement}
-            >
+              key={achievement}>
               <span className="text-sm font-semibold text-portfolio-accent">
                 0{index + 1}
               </span>

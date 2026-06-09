@@ -5,22 +5,12 @@ import { profile } from "@/data/portfolio";
 export default function ResumePage() {
   return (
     <main className="mx-auto w-full max-w-7xl px-5 py-20 sm:px-8">
-      <section className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-end">
+      <section className="lg:grid-cols-[0.9fr_1.1fr] lg:items-end">
         <div>
           <p className="section-kicker">Resume</p>
           <h1 className="mt-6 text-5xl font-semibold tracking-tight text-portfolio-ink sm:text-7xl">
             A downloadable snapshot of my work.
           </h1>
-        </div>
-        <div>
-          <p className="max-w-2xl text-lg leading-8 text-portfolio-muted">
-            Preview the latest resume directly in the browser or download the
-            PDF for sharing and applications.
-          </p>
-          <p className="mt-4 text-sm leading-6 text-portfolio-subtle">
-            Phone contact details are kept inside the resume PDF. This website
-            uses email as the public contact path.
-          </p>
         </div>
       </section>
 

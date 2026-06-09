@@ -19,13 +19,61 @@ export const navigation = [
 ];
 
 export const techStack = {
-  backend: ["C#", "ASP.NET", "RESTful API", "Java", "Spring Boot", "Python", "Node.js", "NestJS"],
-  frontend: ["React", "Angular", "Vue", "TypeScript", "JavaScript", "Tailwind CSS", "Bootstrap", "jQuery"],
-  database: ["MySQL", "MSSQL", "PostgreSQL", "Redis", "Supabase", "Cloudflare D1"],
-  tools: ["Git", "GitHub", "GitLab", "Jira", "Docker", "Jenkins", "AWS S3", "Vercel", "Postman", "Navicat"],
-  ai: ["Prompt Engineering", "AI Customer Support Bot", "AI-assisted tooling", "Workflow automation"],
-};
+  languages: [
+    "C#",
+    "Java",
+    "Python",
+    "JavaScript",
+    "TypeScript",
+    "SQL"
+  ],
 
+  backend: [
+    "ASP.NET",
+    "RESTful API",
+    "Spring Boot",
+    "Node.js",
+    "NestJS"
+  ],
+
+  frontend: [
+    "React",
+    "Angular",
+    "Vue",
+    "jQuery",
+    "Tailwind CSS",
+    "Bootstrap"
+  ],
+
+  database: [
+    "MySQL",
+    "Microsoft SQL Server",
+    "PostgreSQL",
+    "Redis",
+    "Supabase",
+    "Cloudflare D1"
+  ],
+
+  tools: [
+    "Git",
+    "GitHub",
+    "GitLab",
+    "Jira",
+    "Docker",
+    "Jenkins",
+    "AWS S3",
+    "Vercel",
+    "Postman",
+    "Navicat"
+  ],
+
+  ai: [
+    "Prompt Engineering",
+    "AI Customer Support Bot",
+    "AI-assisted tooling",
+    "Workflow automation"
+  ],
+};
 export const focusAreas = [
   {
     title: "API architecture",
@@ -66,6 +114,7 @@ export const academic = {
     "President & Dean List",
     "MUET Band 4",
     "Interactive Gaming Society (IGS) Committee 2019",
+    "Adjustment To Campus Life (ATCL) Crew Member 2018"
   ],
 };
 
@@ -76,6 +125,7 @@ export const achievements = {
     "CGPA of 3.66",
     "MUET Band 4",
     "Interactive Gaming Society (IGS) Committee 2019",
+    "Adjustment To Campus Life (ATCL) Crew Member 2018"
   ],
   engineering: [
     "Architected from-scratch CLI tooling for Google Drive data retrieval and Cloudflare D1 to MySQL migration workflows.",
@@ -147,8 +197,8 @@ export const otherProjects = [
     stack: ["Angular", "Scalar", "MySQL", "Redis", "TypeScript", "NestJS"],
   },
   {
-    name: "Bill Splitting System",
-    ownership: "Architected and implemented an AI-assisted bill splitting product with modern full-stack tooling.",
+    name: "Bill Splitting System - Splity",
+    ownership: "Architected and implemented an AI-assisted bill splitting product with modern full-stack tooling. Available at [https://splity-web-two.vercel.app]",
     stack: ["Next.js", "Supabase", "PostgreSQL", "Tailwind CSS", "Vercel"],
   },
 ];
@@ -159,7 +209,7 @@ export const projectExperience = [
     summary:
       "Architected a C# Telegram bot that automates customer query handling and improves AI response quality through prompt workflow refinement.",
     problem:
-      "Customer support workflows needed faster first-response handling and more consistent query triage.",
+      "Customer support workflows needed faster first-response handling and more consistent query triage with 24/7 availability.",
     approach:
       "Designed backend bot workflows, integrated Telegram bot interactions, and refined prompt behavior to improve AI response quality.",
     outcome:
@@ -193,7 +243,7 @@ export const projectExperience = [
   {
     name: "Google Drive Data Retrieval CLI",
     summary:
-      "Created AI-assisted CLI tooling for retrieving structured data from Google Sheets and Docs.",
+      "Created AI-assisted CLI tooling for retrieving structured data from Google Sheets and Docs that can be used by OpenClaw.",
     problem:
       "Data stored across Google Sheets and Docs needed a more reliable retrieval path for workflow automation.",
     approach:
