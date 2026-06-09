@@ -69,6 +69,27 @@ export const academic = {
   ],
 };
 
+export const achievements = {
+  academic: [
+    "Merit Academic Achievement Award",
+    "President & Dean List",
+    "CGPA of 3.66",
+    "MUET Band 4",
+    "Interactive Gaming Society (IGS) Committee 2019",
+  ],
+  engineering: [
+    "Architected from-scratch CLI tooling for Google Drive data retrieval and Cloudflare D1 to MySQL migration workflows.",
+    "Modernized legacy Python services into C# architecture aligned with maintainability and performance standards.",
+    "Engineered internal business systems supporting audit workflows, invoice processing, and financial operations.",
+    "Maintained and enhanced third-party service provider platforms connecting agents, suppliers, and end users.",
+  ],
+  automation: [
+    "Led backend design and implementation for a Telegram AI customer support bot in C#.",
+    "Applied prompt engineering to improve AI response quality for real customer support workflows.",
+    "Used AI-assisted development patterns to accelerate internal tooling and workflow automation.",
+  ],
+};
+
 export const workExperience = [
   {
     role: "Senior Software Developer",
