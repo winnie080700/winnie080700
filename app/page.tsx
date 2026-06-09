@@ -5,6 +5,7 @@ import { focusAreas, homeHighlights, profile, techStack } from "@/data/portfolio
 
 export default function Home() {
   const stackGroups = [
+    ["Languages", techStack.languages],
     ["Backend", techStack.backend],
     ["Frontend", techStack.frontend],
     ["Database", techStack.database],
