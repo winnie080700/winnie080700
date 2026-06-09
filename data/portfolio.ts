@@ -26,6 +26,36 @@ export const techStack = {
   ai: ["Prompt Engineering", "AI Customer Support Bot", "AI-assisted tooling", "Workflow automation"],
 };
 
+export const focusAreas = [
+  {
+    title: "API architecture",
+    summary:
+      "Designing maintainable backend contracts, RESTful services, and system boundaries for business workflows.",
+  },
+  {
+    title: "Internal systems",
+    summary:
+      "Turning audit, finance, support, migration, and operational needs into practical software platforms.",
+  },
+  {
+    title: "AI automation",
+    summary:
+      "Integrating AI-assisted workflows, prompt refinement, and automation into real support and tooling use cases.",
+  },
+  {
+    title: "Legacy modernization",
+    summary:
+      "Migrating older systems into cleaner C# architecture with stronger maintainability and supportability.",
+  },
+];
+
+export const homeHighlights = [
+  "4+ years across backend systems, web applications, internal tools, and legacy modernization.",
+  "Backend-leaning experience with C# / .NET, REST APIs, MySQL, Redis, Java, and Spring Boot.",
+  "Hands-on frontend delivery across React, Angular, Vue, TypeScript, and Tailwind CSS.",
+  "Project ownership across AI customer support, migration CLI tooling, and financial workflows.",
+];
+
 export const academic = {
   school: "Tunku Abdul Rahman University College (TARUC / TARUMT)",
   degree: "Bachelor of Information Technology (HONS), Internet Technology",

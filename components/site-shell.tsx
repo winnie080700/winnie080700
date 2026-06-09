@@ -41,6 +41,20 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
             <span>Email</span>
           </Link>
         </div>
+        <nav
+          aria-label="Mobile navigation"
+          className="flex gap-1 overflow-x-auto border-t border-portfolio-line px-5 py-2 sm:px-8 lg:hidden"
+        >
+          {navigation.map((item) => (
+            <Link
+              className="shrink-0 px-3 py-2 text-xs font-medium text-portfolio-muted transition hover:text-portfolio-ink"
+              href={item.href}
+              key={item.href}
+            >
+              {item.label}
+            </Link>
+          ))}
+        </nav>
       </header>
 
       {children}
