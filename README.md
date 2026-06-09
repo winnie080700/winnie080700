@@ -1,79 +1,80 @@
-# Hello! Winnie Here (●'◡'●)
+# Hi, I'm Winnie Choong
 
-## About Me
-A software developer with around 4 years of experience in backend and web application development.  
-My main background is in **C# / .NET backend development**, and I also have hands-on experience building web applications with **React, TypeScript, and Angular**.
+**Senior Software Developer based in Kuala Lumpur, Malaysia.**
 
-I enjoy building practical systems, improving existing workflows, and solving real-world problems through clean and maintainable code.  
-Recently, I’ve also been exploring more AI-integrated solutions and expanding my backend skills into other stacks.
+I architect API-driven systems, internal platforms, migration tools, and AI-integrated workflows that turn complex business operations into reliable software.
+
+My core strength is backend engineering with **C# / .NET**, with hands-on experience across **React**, **Angular**, **TypeScript**, **Java**, **Spring Boot**, **MySQL**, **Redis**, and workflow automation.
+
+Portfolio website: **coming soon**
+
+---
+
+## What I Focus On
+
+- API architecture and backend system design
+- Internal tools and business workflow systems
+- Legacy system modernization and migration
+- AI-integrated automation and chatbot workflows
+- Code quality, maintainability, and production support
+- Cross-functional collaboration and technical problem solving
+
 ---
 
 ## Tech Stack
 
-### Languages
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-
 ### Backend
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![REST API](https://img.shields.io/badge/REST%20API-005571?style=for-the-badge)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-005571?style=for-the-badge)
 
 ### Frontend
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vue](https://img.shields.io/badge/Vue-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-### Database / Tools
+### Database & Tools
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![AWS S3](https://img.shields.io/badge/AWS_S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 ---
 
-## Experience Highlights
+## Featured Work
 
-### Telegram Customer Service AI Bot
-Led a small team to design and develop a **Telegram customer service AI bot in C#**, automating user query handling and improving response efficiency.  
-Worked on backend design, implementation, and prompt enhancement to improve AI response quality.
+### Telegram AI Customer Support Bot
+Architected and implemented a C#-based Telegram customer support bot that automates user query handling and improves response workflows through AI-assisted prompt design.
 
 ### Internal Financial Management System
-Engineered an **internal financial management system** using **C# RESTful APIs and React**, supporting audit workflows and invoice processing.  
-Focused on system stability, API design, and maintainability.
+Engineered a financial management platform with C# RESTful APIs and React, supporting audit workflows, invoice processing, and internal operation visibility.
 
-### Legacy API Migration
-Migrated legacy APIs from **Python to C#**, aligning them with company architecture standards and improving maintainability and performance.
+### Cloudflare D1 to MySQL Migration CLI
+Architected a migration CLI that exports, imports, validates, and migrates Cloudflare D1 database schema and data into MySQL.
 
-### System Optimization & Maintenance
-Diagnosed and resolved performance bottlenecks, fixed software defects, and maintained production systems to improve stability and response times.
+### Legacy Python to C# Migration
+Modernized legacy APIs by migrating Python services into a C# architecture aligned with company standards for maintainability and performance.
 
-### Third-Party Platform Maintenance
-Maintained and enhanced a third-party web platform that streamlines communication among agents, suppliers, and end users.
+### Splity
+Designed a bill-splitting web application for organizing shared expenses within groups.
 
----
-
-## What I Work With
-- Backend API development with **C# / .NET**
-- Web application development with **React, TypeScript, and Angular**
-- Database integration and data-driven systems
-- Internal tools and workflow systems
-- Performance optimization and bug fixing
-- AI-integrated solutions and chatbot-related systems
+[View Splity](https://github.com/winnie080700/Splity)
 
 ---
 
-## Featured Projects
+## Current Direction
 
-### [Splity](https://github.com/winnie080700/Splity)
-A split bill web app to help user organize expenses within groups.
-
-### [Database Migration Tool - CFD1 to MySql](https://github.com/winnie080700/cfd1-mysql-migrator)
-A database migration tool that helps to export, import, validate and most importantly migrates cloudflare d1 database schema and data to MySQL.
-
-### [Narraverse - WIP]
-A web application for both interval and external usage of a LARP business.
+I am currently expanding my work around AI-assisted tooling, backend architecture, internal platforms, and practical automation for real business workflows.
 
 ---
 
-Thanks for visiting my profile. uwu)b
+## Contact
+
+Email: [winnie.chngsm@gmail.com](mailto:winnie.chngsm@gmail.com)
+
+Resume and portfolio website will be linked here once the portfolio site is ready.
